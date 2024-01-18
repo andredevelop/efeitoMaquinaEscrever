@@ -1,0 +1,19 @@
+body{
+    background-color: cyan;
+}
+
+h1{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+span{
+    border-right: .05em solid;
+    animation: cursor 1s steps(1) infinite;
+}
+
+@keyframes cursor {
+    50%{
+        border-color: transparent;
+    }
+}
